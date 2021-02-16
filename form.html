@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Schedule</title>
+    <script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="code.js"></script>
+    <link rel="stylesheet" href="code.css">
+</head>
+<body>
+<h1>My Schedule</h1>
+<h2>Choose a day to view schedule</h2>
+    <form>
+        <input type="radio" name="day" id="monday" checked="checked" value="Monday">
+        <label for="monday">Monday</label>
+        <br>
+
+        <input type="radio" name="day" id="tuesday" value="Tuesday">
+        <label for="tuesday">Tuesday</label>
+        <br>
+
+        <input type="radio" name="day" id="wednesday" value="Wednesday">
+        <label for="wednesday">Wednesday</label>
+        <br>
+
+        <input type="radio" name="day" id="thursday" value="Thursday">
+        <label for="thursday">Thursday</label>
+        <br>
+
+        <input type="radio" name="day" id="friday" value="Friday">
+        <label for="friday">Friday</label>
+        <br>
+
+        <input type="radio" name="day" id="saturday" value="Saturday">
+        <label for="saturday">Saturday</label>
+        <br>
+
+        <input type="radio" name="day" id="sunday" value="Sunday">
+        <label for="sunday">Sunday</label>
+        <br>
+        <button>Submit</button>
+
+    </form>
+
+<div>
+    <p id="scheduleOutput"></p>
+</div>
+
+</body>
+</html>
